@@ -68,7 +68,7 @@ We use [NodeJS](https://nodejs.org/en) for versioning. For the versions availabl
 
 * **Jeff Jenkins** - ** - [jjenki11](https://github.com/jjenki11)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/jjenki11/contributors) who participated in this project.
 
 ## License
 
