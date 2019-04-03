@@ -1,0 +1,33 @@
+{
+  "name": "expressoh",
+  "version": "1.0.4",
+  "bin": {
+    "expressoh-examples": "mocha",
+    "expressoh": "scripts/run.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "joi": "^14.1.0",
+    "jstransformer": "^1.0.0",
+    "libphonenumber-js": "^1.7.14",
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0",
+    "moment": "^2.22.2",
+    "superagent": "^5.0.2",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.1.1",
+    "nock": "^10.0.6",
+    "nock-record": "^0.3.3",
+    "sinon": "^1.17.5"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/jjenki11/expressoh",
+  "description": "An alternative approach to testing js with mocha, chai, nock, and others!"
+}
