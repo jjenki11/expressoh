@@ -2,8 +2,7 @@
   "name": "expressoh",
   "version": "1.0.4",
   "bin": {
-    "expressoh-examples": "mocha",
-    "expressoh": "scripts/run.js"
+    "expressoh-examples": "mocha"
   },
   "dependencies": {
     "bluebird": "^3.5.3",

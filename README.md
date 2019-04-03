@@ -50,11 +50,20 @@ Then open a web browser with this html file to see your results.
 ### Creating your own tests
 
 Examples for how to write expressoh tests can be found in the examples folder...
+
 ```
 cd node_modules/expressoh/examples
 ```
 
-When ready to
+When ready to create your own, ensure you have a 'test' folder in the root of your project, and inside of it should be a file called 'mocha.opts'.
+
+Modify this file to point to your test folder, and before running, execute
+
+```
+npm link
+```
+
+To expose the expressoh launcher binary and link it to your project root directory.
 
 ## Contributing
 
@@ -66,7 +75,7 @@ We use [NodeJS](https://nodejs.org/en) for versioning. For the versions availabl
 
 ## Authors
 
-* **Jeff Jenkins** - ** - [jjenki11](https://github.com/jjenki11)
+* **Jeff Jenkins** - [jjenki11](https://github.com/jjenki11)
 
 See also the list of [contributors](https://github.com/jjenki11/contributors) who participated in this project.
 
