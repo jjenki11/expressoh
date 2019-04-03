@@ -1,0 +1,22 @@
+[
+    {
+        "type": "http",
+        "valid": true,
+        "http": {
+            "method": "get",
+            "url": "https://jsonplaceholder.typicode.com",
+            "path": "/users",
+            "fixture": "typicode-get-users"
+        }
+    },
+    {
+        "type": "http",
+        "valid": true,
+        "http": {
+            "method": "get",
+            "url": "https://jsonplaceholder.typicode.com",
+            "path": "/posts",
+            "fixture": "typicode-get-posts"
+        }
+    }
+]

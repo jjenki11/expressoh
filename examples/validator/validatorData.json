@@ -1,0 +1,21 @@
+[
+    {"valid":true,  "type":"email",    "facility":"johndumbo@gmail.com"},
+
+    {"valid":true,  "type":"phone",    "facility":"+5718675309"},
+    
+
+    {"valid":true,  "type":"username", "facility":"johndumbo"},
+    {"valid":true,  "type":"username", "facility":"sumGuy"},
+
+
+    {"valid":false, "type":"email",    "facility":"@\"NotAnEmail\""},
+    {"valid":false, "type":"email",    "facility":"some.badly.formatted email@stuff,com"},
+
+    {"valid":false, "type":"phone",    "facility":"51911"},
+    {"valid":false, "type":"phone",    "facility":"yep im a phone number"},
+
+    {"valid":false, "type":"username", "facility":"."},
+    {"valid":false, "type":"username", "facility":","},
+
+    {"valid":false,  "type":"phone",    "facility":"+5644"}
+]
