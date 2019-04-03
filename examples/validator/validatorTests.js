@@ -1,11 +1,8 @@
 'use strict';
-
-const Expressoh = require('../..');
-var expressoh = new Expressoh();
+var expressoh = new (require('../..'))();
 var Mapper = expressoh.Mapper();
 var Composer = expressoh.Composer();
-
-let suite = [
+var suite = [
   {
     name: 'Can Process tests',
     tests: [
@@ -19,8 +16,6 @@ let suite = [
     ]
   }
 ];
-
-Promise.resolve()
-.then(Composer.create(suite))
+Composer.create(suite)
 .then(Composer.run())
-.catch(err => console.log(`Error running composer... ${err}`))
+.catch(err => console.log(`Error running composer... ${err}`));

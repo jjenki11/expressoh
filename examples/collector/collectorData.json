@@ -1,0 +1,9 @@
+[
+  {
+    "platform": "https://jsonplaceholder.typicode.com/users",
+    "facility": "test@test.com",
+    "facilityType": "email",
+    "valid": true,
+    "type": "web"
+  }
+]

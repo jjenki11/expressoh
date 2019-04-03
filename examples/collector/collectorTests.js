@@ -4,11 +4,11 @@ var Mapper = expressoh.Mapper();
 var Composer = expressoh.Composer();
 let suite = [
   {
-    name: 'Can fetch from http',
+    name: 'Can collect data',
     tests: [
       {
-        title: 'Can generator request', 
-        conditions: require('./generatorData.json').map(Mapper.http)
+        title: 'Can collector collect',
+        conditions: require('./collectorData.json').map(Mapper.web)
       }
     ]
   }
