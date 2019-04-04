@@ -1,8 +1,8 @@
 {
   "name": "expressoh",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "bin": {
-    "expressoh-examples": "./node_modules/mocha/bin/mocha"
+    "expressoh-examples": "../mocha/bin/mocha"
   },
   "dependencies": {
     "bluebird": "^3.5.3",
@@ -17,7 +17,8 @@
     "superagent": "^5.0.2",
     "validator": "^10.11.0",
     "chromedriver": "^2.40.0",
-    "selenium-webdriver": "^4.0.0-alpha.1"
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "nock-record": "^0.3.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -25,7 +26,6 @@
     "mocha": "^5.2.0",
     "mochawesome": "^3.1.1",
     "nock": "^10.0.6",
-    "nock-record": "^0.3.3",
     "sinon": "^1.17.5"
   },
   "license": "MIT",
